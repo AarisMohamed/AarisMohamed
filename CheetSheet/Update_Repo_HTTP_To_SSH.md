@@ -3,7 +3,7 @@ Your repository may still be using HTTPS, which asks for credentials. To check, 
 
 git remote -v
 
-##If you see:
+## If you see:
 
 origin  https://github.com/your-username/your-repo.git (fetch)
 origin  https://github.com/your-username/your-repo.git (push)
