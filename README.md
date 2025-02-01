@@ -8,3 +8,5 @@
 
 ### 📌 Latest Activity  
 _Auto-updated every day!_  
+
+![Learning Streak](https://img.shields.io/badge/Learning_Streak-Active-green?style=for-the-badge)
