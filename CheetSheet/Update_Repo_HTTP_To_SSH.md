@@ -2,7 +2,7 @@
 
 ### Your repository may still be using HTTPS, which asks for credentials. To check, run:
 
-git remote -v
+`git remote -v`
 
 #### If you see:
 
