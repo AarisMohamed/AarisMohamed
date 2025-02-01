@@ -1,33 +1,41 @@
 # Make Sure Your GitHub Repo Uses SSH Instead of HTTPS
-Your repository may still be using HTTPS, which asks for credentials. To check, run:
+
+### Your repository may still be using HTTPS, which asks for credentials. To check, run:
 
 git remote -v
 
-## If you see:
+#### If you see:
 
-origin  https://github.com/your-username/your-repo.git (fetch)
-origin  https://github.com/your-username/your-repo.git (push)
+`origin  https://github.com/your-username/your-repo.git (fetch)`
+
+
+`origin  https://github.com/your-username/your-repo.git (push)`
 
 👉 You need to switch it to SSH.
 
+
 # Change Repository URL to SSH
-Run this command to update your repository remote to SSH:
 
-git remote set-url origin git@github.com:your-username/your-repo.git
+### Run this command to update your repository remote to SSH:
 
-## Now, check again with:
+`git remote set-url origin git@github.com:your-username/your-repo.git`
 
-git remote -v
+### Now, check again with:
 
-## You should see:
+`git remote -v`
 
-origin  git@github.com:your-username/your-repo.git (fetch)
-origin  git@github.com:your-username/your-repo.git (push)
+#### You should see:
+
+`origin  git@github.com:your-username/your-repo.git (fetch)` 
+
+`origin  git@github.com:your-username/your-repo.git (push)`
+
 
 # Test SSH Authentication
-Make sure your SSH connection to GitHub is working:
 
-ssh -T git@github.com
+### Make sure your SSH connection to GitHub is working:
 
-## If it works, you'll see:
+`ssh -T git@github.com`
+
+#### If it works, you'll see:
 ✅ "Hi your-username! You've successfully authenticated..."
